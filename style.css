@@ -21,8 +21,11 @@ h1 {
 p {
     width: 80%;
     max-width: 600px; /* Limiter la largeur des paragraphes */
-    margin: 50 auto;
+    margin: 0 auto;
     text-align: justify;
+}
+.chart-container:first-of-type {
+    margin-left: -50px; /* Décale de 50 pixels vers la gauche */
 }
 
 main {
