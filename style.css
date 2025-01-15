@@ -1,4 +1,3 @@
-/* Global styles */
 body {
     font-family: 'Montserrat', sans-serif;
     color: #6A4E23; /* Marron */
@@ -6,56 +5,47 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header {
     text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-p {
-    width: 10cm; /* Limiter à 10 cm de largeur */
-    margin: 0 auto;
-    text-align: justify;
+    padding: 30px 20px;
+    width: 100%;
 }
 
 main {
-    padding: 20px;
+    width: 90%; /* Augmenter la largeur du contenu principal */
+    margin: 0 auto;
 }
 
 section {
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-size: 1.8rem;
-    color: #6A4E23;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .chart-container {
     width: 100%;
-    margin: 20px 0;
+    max-width: 1200px; /* Largeur maximale pour les graphiques */
+    margin: 0 auto; /* Centrer */
+    padding: 20px;
 }
 
-footer {
-    background-color: #6A4E23;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Make sure iframe fills the container properly */
-iframe {
+.chart-container iframe {
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 600px; /* Hauteur par défaut des graphiques */
     border: none;
+}
+
+.full-width {
+    width: 100%; /* Utilise toute la largeur pour le graphique 3 */
+    height: auto;
+}
+
+.full-width iframe {
+    height: 900px; /* Hauteur plus grande pour le graphique 3 */
 }
