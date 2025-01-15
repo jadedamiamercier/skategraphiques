@@ -21,14 +21,10 @@ h1 {
 p {
     width: 80%;
     max-width: 600px; /* Limiter la largeur des paragraphes */
-    margin: 0 auto;
+    margin: 15000px;
     text-align: justify;
 }
-/* Décaler uniquement le graphique 1 vers la droite */
-.chart-container:first-of-type {
-    position: relative; /* Permet de déplacer l'élément */
-    left: 50px; /* Décale de 50 pixels vers la droite */
-}
+
 
 main {
     width: 100%;
