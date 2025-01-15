@@ -17,9 +17,10 @@ body {
     margin-bottom: 0px;
 }
 
-#tagCloud {
+
+    #tagCloud {
     position: relative;
-     left: 1000px;
+    margin-left: 378px; /* Décale tout le conteneur vers la droite */
 }
 
 .brand-circle {
