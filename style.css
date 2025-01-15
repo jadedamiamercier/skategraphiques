@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     font-family: 'Montserrat', sans-serif;
     color: #6A4E23; /* Marron */
@@ -5,47 +6,79 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    text-align: center; /* Centrer tout le texte */
 }
 
 header {
-    text-align: center;
     padding: 30px 20px;
-    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 80%;
+    max-width: 600px; /* Limiter la largeur des paragraphes */
+    margin: 0 auto;
+    text-align: justify;
 }
 
 main {
-    width: 90%; /* Augmenter la largeur du contenu principal */
-    margin: 0 auto;
+    width: 100%;
+    padding: 30px 20px;
 }
 
+/* Section container */
 section {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem; /* Sous-titres plus petits */
+    color: #6A4E23;
+    margin: 20px auto;
     text-align: center;
 }
 
 .chart-container {
-    width: 100%;
-    max-width: 1200px; /* Largeur maximale pour les graphiques */
-    margin: 0 auto; /* Centrer */
-    padding: 20px;
+    width: 80%;
+    max-width: 1200px; /* Limite de largeur des graphiques */
+    margin: 0 auto; /* Centrer les graphiques */
+    padding: 20px 0;
 }
 
 .chart-container iframe {
     display: block;
-    width: 100%;
-    height: 600px; /* Hauteur par défaut des graphiques */
+    width: 100%; /* Occupe toute la largeur du conteneur */
+    height: 700px; /* Augmenter la hauteur des graphiques */
     border: none;
 }
 
-.full-width {
-    width: 100%; /* Utilise toute la largeur pour le graphique 3 */
-    height: auto;
+/* Full width for Graph 3 */
+.full-width iframe {
+    height: 900px; /* Plus grand pour le Graphique 3 */
 }
 
-.full-width iframe {
-    height: 900px; /* Hauteur plus grande pour le graphique 3 */
+/* Footer styles */
+footer {
+    background-color: #6A4E23;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1rem; /* Réduire la taille des sous-titres sur mobile */
+    }
+    .chart-container iframe {
+        height: 500px; /* Ajuster la hauteur sur petits écrans */
+    }
+    .chart-container {
+        width: 95%; /* Utiliser presque toute la largeur sur mobile */
+    }
 }
