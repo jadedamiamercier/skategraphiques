@@ -14,11 +14,8 @@ header {
 }
 
 h1 {
-    font-size: 2rem; /* Réduire la taille du titre */
+    font-size: 3rem;
     margin-bottom: 10px;
-    width: 80%; /* Aligner le titre avec le premier paragraphe */
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {
@@ -36,22 +33,21 @@ main {
 /* Section container */
 section {
     margin-bottom: 60px;
-    text-align: left; /* Aligner le texte à gauche */
+    text-align: center;
 }
 
 h2 {
     font-size: 1rem; /* Réduire la taille des sous-titres */
     color: #6A4E23;
     margin: 10px auto;
-    text-align: left; /* Alignement à gauche */
+    text-align: center;
 }
 
 .chart-container {
     width: 100%; /* Utilise toute la largeur de la page */
+    margin: 0 auto; /* Centrer les graphiques */
     padding: 20px 0;
-    margin-left: 10cm; /* Décale de 10 cm vers la droite */
 }
-
 
 .chart-container iframe {
     display: block;
