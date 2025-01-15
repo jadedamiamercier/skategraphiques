@@ -24,8 +24,10 @@ p {
     margin: 0 auto;
     text-align: justify;
 }
+/* Décaler uniquement le graphique 1 vers la droite */
 .chart-container:first-of-type {
-    margin-left: -50px; /* Décale de 50 pixels vers la gauche */
+    position: relative; /* Permet de déplacer l'élément */
+    left: 50px; /* Décale de 50 pixels vers la droite */
 }
 
 main {
