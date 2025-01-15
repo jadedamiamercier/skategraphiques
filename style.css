@@ -48,10 +48,10 @@ h2 {
 
 .chart-container {
     width: 100%; /* Utilise toute la largeur de la page */
-    margin: 0 auto; /* Centrer les graphiques */
     padding: 20px 0;
-    margin-left: 10cm; /* Décalage de 10 cm vers la droite */
+    margin-left: 10cm; /* Décale de 10 cm vers la droite */
 }
+
 
 .chart-container iframe {
     display: block;
