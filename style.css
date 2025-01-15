@@ -28,8 +28,8 @@ p {
 /* Décaler uniquement le graphique 1 vers la droite */
 .chart-container:first-of-type {
     position: relative; /* Permet de déplacer l'élément */
-    left: 5000px; /* Décale de 50 pixels vers la droite */
-    margin-left: 5000px; /* Ajout d'une marge à gauche pour renforcer le décalage */
+    left: 15000px; /* Décale de 50 pixels vers la droite */
+    margin-left: 50px; /* Ajout d'une marge à gauche pour renforcer le décalage */
 }
 
 main {
