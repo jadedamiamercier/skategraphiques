@@ -37,29 +37,28 @@ section {
 }
 
 h2 {
-    font-size: 1.2rem; /* Sous-titres plus petits */
+    font-size: 1rem; /* Réduire la taille des sous-titres */
     color: #6A4E23;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
 .chart-container {
-    width: 80%;
-    max-width: 1200px; /* Limite de largeur des graphiques */
+    width: 100%; /* Utilise toute la largeur de la page */
     margin: 0 auto; /* Centrer les graphiques */
     padding: 20px 0;
 }
 
 .chart-container iframe {
     display: block;
-    width: 100%; /* Occupe toute la largeur du conteneur */
-    height: 700px; /* Augmenter la hauteur des graphiques */
+    width: 100%; /* Occupe toute la largeur */
+    height: 90vh; /* Utilise 90% de la hauteur de l'écran */
     border: none;
 }
 
 /* Full width for Graph 3 */
 .full-width iframe {
-    height: 900px; /* Plus grand pour le Graphique 3 */
+    height: 100vh; /* Le graphique 3 occupe toute la hauteur */
 }
 
 /* Footer styles */
@@ -73,12 +72,9 @@ footer {
 /* Responsive styles */
 @media (max-width: 768px) {
     h2 {
-        font-size: 1rem; /* Réduire la taille des sous-titres sur mobile */
+        font-size: 0.9rem; /* Réduire encore la taille des sous-titres sur mobile */
     }
     .chart-container iframe {
-        height: 500px; /* Ajuster la hauteur sur petits écrans */
-    }
-    .chart-container {
-        width: 95%; /* Utiliser presque toute la largeur sur mobile */
+        height: 70vh; /* Réduire la hauteur sur petits écrans */
     }
 }
