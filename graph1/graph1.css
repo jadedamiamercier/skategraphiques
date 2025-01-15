@@ -1,0 +1,37 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #6A4E23;  /* Marron */
+    margin-bottom: 0px;
+}
+
+#tagCloud {
+    position: relative;
+}
+
+.brand-circle {
+    fill: #FF5EC4;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.brand-label {
+    fill: #6A4E23;  /* Couleur marron pour le texte */
+    font-size: 15px;
+    font-weight: bold; /* Texte en gras */
+    font-family: 'Montserrat', sans-serif; /* Police Montserrat */
+    text-anchor: middle;
+    pointer-events: none;
+}

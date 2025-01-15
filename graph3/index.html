@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skateparks Bar Chart</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff; /* Background of the page */
+            color: white ; /* Marron for text */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: withe; /* Marron for the title */
+            margin-bottom: 20px;
+        }
+
+        #chart-container {
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        canvas {
+            background-color: transparent; /* Ensure canvas background is transparent */
+        }
+    </style>
+</head>
+<body>
+    <h1>Cities with The Most Skateparks in The World</h1>
+    <div id="chart-container">
+        <canvas id="skateparkChart"></canvas>
+    </div>
+
+    <script src="graph3.js"></script>
+    <script src="graph3.html"></script>
+</body>
+</html>

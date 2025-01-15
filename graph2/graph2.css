@@ -1,0 +1,22 @@
+body {
+    font-family: coolvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }
+  
+  #chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    flex-wrap: wrap;
+  }
+  
+  .chart {
+    margin: 40px;
+    text-align: center;
+  }
+  
